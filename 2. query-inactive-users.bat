@@ -1,0 +1,2 @@
+::a very simple .bat script that queries the inactive users for a specified period in weeks and outputs the result in a .csv file.
+Dsquery user -inactive 52 -limit 1500 > C:\Temp\inactiveuserforayear.csv
